@@ -1,0 +1,89 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .hero-images img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .product-images img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .support-images img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .collobarative-images img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 33px;
+        line-height: 46px;
+    }
+
+    .hero p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .btn{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        padding-bottom: 30px;
+    }
+
+    .about-images {
+        flex-wrap: wrap;
+    }
+
+    .about-images div {
+        margin: 20px 0;
+    }
+
+    .product {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .support {
+        flex-direction: column-reverse;
+    }
+
+    .collobarative {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo {
+    display: flex;
+    padding: 0 10px 0 0
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: #173A56;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    font-size: 16px;
+    color: #22343D;
+    padding: 0 10px
+}
+
+.menu a:hover {
+    border-bottom: 2px solid black
+}
+
+.btn1 {
+    font-size: 16px;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 110px;
+    height: 40px;
+    margin: 0 10px 0 0;
+}
+
+.btn2 {
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 25px;
+}
+
+.btn {
+    display: flex;
+    align-items: center
+}
+
+#header {
+    margin: 10px 0
+}
+
+#hero {
+    padding: 40px 0 0 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    width: 518px;
+    color: #22343D;
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    margin: 30px 0;
+}
+
+.hero-btn-1 {
+    background: #02897A;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border: none;
+}
+
+.hero-btn-2 {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #02897A;
+    border: none;
+    background: none;
+    margin: 0 0 0 20px;
+}
+
+
+.about-block {
+    width: 45px;
+    height: 45px;
+    border-radius: 13px;
+    background: #02897A;
+}
+
+.about-block1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 13px;
+    background: #4D8DFF;
+}
+
+.about-block1 img {
+    padding: 15px 0 0 15px;
+}
+
+.about-block3 {
+    width: 45px;
+    height: 45px;
+    border-radius: 13px;
+    background: #740A76;
+}
+
+.about-block3 {
+    padding: 15px 0 0 15px;
+}
+
+.about-block img {
+    padding: 15px 0 0 15px;
+}
+
+.about-title h1{
+    font-size: 22px;
+    line-height: 33px;
+    color: #22343D;
+    margin: 10px 0;
+}
+
+.about-subtitle {
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 240px;
+
+}
+
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0 0 0;
+}
+
+.about-btn {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    border: none;
+    margin-top: 50px;
+    padding: 20px 30px;
+
+}
+#about{
+    background: url("../img/Bg.png") no-repeat center/cover;
+    min-height: 90px;
+    padding: 0 0 60px 0;
+}
+
+#product {
+    padding: 50px 0;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.management h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+}
+
+.management h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+}
+
+.management p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 486px;
+    margin: 15px 0;
+}
+
+.support-block {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #FF9900;
+}
+
+.support-title {
+    font-size: 16px;
+    color: #22343D;
+
+}
+
+.support-subtitle {
+    font-size: 32px;
+    color: #22343D;
+    margin: 10px 0;
+
+}
+
+.support-page {
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 486px;
+    margin: 0 0 10px 0;
+}
+
+.support-block {
+    padding: 10px 0 0 10px;
+}
+
+.support-never {
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 365px;
+    margin: 0 0 0 15px;
+}
+
+.support-worry {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collobarative-text h4 {
+    font-size: 16px;
+    color: #22343D;
+    margin: 5px 0;
+
+}
+
+.collobarative-text p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 486px;
+    color: #22343D;
+    margin: 10px 0;
+}
+
+#collobarative {
+    margin: 70px 0 0 0;
+}
+
+.collobarative {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+
+.burger-menu{
+    display: none;
+}
